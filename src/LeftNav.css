@@ -1,0 +1,33 @@
+.listitems{
+    margin: 20px;
+    
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 20px;
+    display: inline-block;
+    position: relative;
+    cursor: pointer;
+  }
+  
+  /* .listitems:hover{
+    color: #00CEC9;
+    cursor: pointer;  
+  } */
+  .listitems:after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: 2px;
+    bottom: 15px;
+    left: 0;
+    background-color: #00CEC9;
+    transform-origin: bottom right;
+    transition: transform 0.25s ease-out;
+  }
+  
+  .listitems:hover:after {
+    transform: scaleX(1);
+    transform-origin: bottom left;
+  }
