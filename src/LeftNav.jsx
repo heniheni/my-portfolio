@@ -2,7 +2,6 @@ import React from 'react';
 import styled from 'styled-components';
 import './LeftNav.css';
 import {Link} from 'react-scroll';
-import Scroll from 'react-scroll-component';
 
 const Ul = styled.ul`
   list-style: none;

@@ -1,12 +1,6 @@
 import React from 'react'
 import userImage from './Heni_Bhungalia.jpeg'
 import './HeroHeader.css'
-import {
-    BrowserRouter as Router,
-    Switch,
-    Route,
-    Link
-  } from "react-router-dom"
 
 export default function HeroHeader() {
     return (
