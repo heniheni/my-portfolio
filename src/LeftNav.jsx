@@ -1,6 +1,8 @@
 import React from 'react';
 import styled from 'styled-components';
 import './LeftNav.css';
+import {Link} from 'react-scroll';
+import Scroll from 'react-scroll-component';
 
 const Ul = styled.ul`
   list-style: none;
@@ -11,7 +13,7 @@ const Ul = styled.ul`
   }
   @media (max-width: 768px) {
     flex-flow: column nowrap;
-    background-color: #0D2538;
+    background-color: #e9765b;
     position: fixed;
     transform: ${({ open }) => open ? 'translateX(0)' : 'translateX(-100%)'};
     top: -24px;
@@ -31,12 +33,12 @@ const LeftNav = ({ open }) => {
   return (
     <Ul className="styleUL" open={open}>
         
-            <li className="listitems">Home</li>
-            <li className="listitems">About Me</li>
-            <li className="listitems">Academic</li>
-            <li className="listitems">Projects</li>
-            <li className="listitems">Resume</li>
-            <li className="listitems">Contact Me</li>
+            <li className="listitems"><Link activeClass="active" to="home" spy={true} smooth={true}></Link>Home</li>
+            <li className="listitems"><Link to="aboutme" spy={true} smooth={true}></Link>About Me</li>
+            <li className="listitems"><Link to="academic" spy={true} smooth={true}></Link>Academic</li>
+            <li className="listitems"><Link to="projects" spy={true} smooth={true}></Link>Projects</li>
+            <li className="listitems"><Link to="resume" spy={true} smooth={true}></Link>Resume</li>
+            <li className="listitems"><Link to="contactme" spy={true} smooth={true}></Link>Contact Me</li>
         
       
     </Ul>

@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import styled from 'styled-components';
+import LeftNav from './LeftNav';
 import RightNav from './LeftNav';
 
 const StyledBurger = styled.div`
@@ -18,7 +19,7 @@ const StyledBurger = styled.div`
   div {
     width: 2rem;
     height: 0.25rem;
-    background-color: ${({ open }) => open ? 'white' : '#333'};
+    background-color: ${({ open }) => open ? 'white' : 'white'};
     border-radius: 10px;
     transform-origin: 1px;
     transition: all 0.3s linear;
@@ -45,7 +46,7 @@ const Burger = () => {
         <div />
         <div />
       </StyledBurger>
-      <RightNav open={open}/>
+      <LeftNav open={open}/>
     </>
   )
 }
