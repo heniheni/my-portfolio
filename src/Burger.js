@@ -1,13 +1,11 @@
 import React, { useState } from 'react';
 import styled from 'styled-components';
 import LeftNav from './LeftNav';
-import RightNav from './LeftNav';
 
 const StyledBurger = styled.div`
   width: 2rem;
   height: 2rem;
   position: fixed;
-//   top: 15px;
   left: 20px;
   z-index: 20;
   display: none;
