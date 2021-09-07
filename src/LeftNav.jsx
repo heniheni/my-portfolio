@@ -1,7 +1,7 @@
 import React from 'react';
 import styled from 'styled-components';
 import './LeftNav.css';
-import HeroHeader from './HeroHeader';
+
 import {Link} from 'react-scroll';
 
 const Ul = styled.ul`

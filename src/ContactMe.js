@@ -1,20 +1,20 @@
 import React, { Component } from 'react'
 import './ContactMe.css'
-import { Link } from 'react-scroll';
+
 
 export default class ContactMe extends Component {
     render() {
         return (
             <div className="ContactMe" id="ContactMe">
                 <div className="subHeadingSet">
-                <h1 className="subHeadText">Contact Me</h1>
+                    <h1 className="contact_subHeadText">Contact Me</h1>
                 </div>
 
                 <div className="mainContact">
                     <div>
-                    <h1 className="statement">You Can Connect With Me Via Any Options Below</h1>
+                        <h1 className="statement">You Can Connect With Me Via</h1>
                     </div>
-                    
+
                     <div className="email">
                         <div className="oneLine">
                             <i class="fas fa-envelope"></i>
@@ -29,19 +29,19 @@ export default class ContactMe extends Component {
                         <div className="oneLine">
                             <i class="fab fa-linkedin"></i>
                             <h2><a href="https://www.linkedin.com/in/heni-bhungalia/">Linkedin</a></h2>
-                    </div>
+                        </div>
 
                         <div className="oneLine">
                             <i class="fab fa-github"></i>
                             <h2><a href="https://github.com/heniheni">Github</a></h2>
                         </div>
                     </div>
-                   
-                    
-                   
+
+
+
                 </div>
-                
-            
+
+
             </div>
         )
     }

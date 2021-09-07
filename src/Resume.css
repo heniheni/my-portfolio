@@ -1,6 +1,6 @@
 .Resume{
-    height: 100vh;
-    background-color: cadetblue;
+    min-height: 100vh;
+    background-color: #FDF0E6;
 }
 .setResume{
     display: flex;
@@ -8,4 +8,5 @@
     align-items: center;
     justify-content: center;
     padding-top: 50px;
+    z-index: auto;
 }

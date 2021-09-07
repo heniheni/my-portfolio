@@ -4,18 +4,19 @@
 }
 .AboutMe{
     /* height: 100vh; */
-    background-color: yellowgreen;
+    background-color: white;
 }
 .subHeadingSet{
-    
+
     height: 70px;
-    width: 200px;
-    clip-path: polygon(0% 0%, 75% 0%, 100% 50%, 75% 100%, 0% 100%);
+    width: 210px;
+    /* clip-path: polygon(0% 0%, 75% 0%, 100% 50%, 75% 100%, 0% 100%); */
     padding-top: 5px;
 }
-.subHeadText{
-    background-color: red;
-    padding: 15px;  
+.about_subHeadText{
+    background-color: #F08E80;
+    padding: 15px;
+    width: 180px;
 }
 .contentContainer{
     display: flex;
@@ -24,6 +25,7 @@
     justify-content: center;
 }
 .intro_about{
+    margin-top: 40px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -44,24 +46,24 @@ margin: 20px;
 .fav1{
     height: 250px;
     width: 250px;
-    margin-top: 45px;
+    /* margin-top: 45px; */
     margin-right: 45px;
     object-fit: cover;
     /* box-shadow: rgba(0, 0, 0, 85%) 2.4px 2.4px 3.2px; */
     box-shadow: #e9765b 2.4px 2.4px 3.2px;
-    transform: rotate(350deg);
+    /* transform: rotate(350deg); */
 }
 
 .fav1_cap{
-    transform: rotate(350deg);
+    /* transform: rotate(350deg); */
     display: flex;
     justify-content: center;
-  
+
 }
 .fav2{
     height: 250px;
     width: 250px;
-    margin-bottom: 8px;
+    /* margin-bottom: 8px; */
     object-fit: cover;
     /* box-shadow: rgba(0, 0, 0, 85%) 2.4px 2.4px 3.2px; */
     box-shadow: #e9765b 2.4px 2.4px 3.2px;
@@ -73,15 +75,15 @@ margin: 20px;
 .fav3{
     height: 250px;
     width: 250px;
-    margin-top: 45px;
+    /* margin-top: 45px; */
     margin-left: 45px;
     object-fit: cover;
     /* box-shadow: rgba(0, 0, 0, 85%) 2.4px 2.4px 3.2px; */
     box-shadow: #e9765b 2.4px 2.4px 3.2px;
-    transform: rotate(10deg);
+    /* transform: rotate(10deg); */
 }
 .fav3_cap{
-    transform: rotate(10deg);
+    /* transform: rotate(10deg); */
     display: flex;
     justify-content: center;
 }
@@ -94,6 +96,13 @@ margin: 20px;
 }
 i.fab{
     font-size: x-large;
+}
+.setHobby{
+    color: #E9765B;
+    margin-left: 10%;
+    margin-bottom: 10px;
+    align-self: flex-start;
+    font-style: italic;
 }
 .list{
     font-size: 24px;
@@ -110,6 +119,7 @@ i.fab{
     align-items: center;
 }
 .items{
+    margin-top: 15px;
     margin-bottom: 10px;
 }
 .adjustDate{

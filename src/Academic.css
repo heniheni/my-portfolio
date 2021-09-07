@@ -1,6 +1,6 @@
 .Academic{
     height: 100vh;
-    background-color: blueviolet;
+    background-color: #FDF0E6;
 }
 .frame{
    border-radius: 10px;
@@ -9,18 +9,19 @@
     margin-top: 30px;
     text-align: center;
     border: 2px solid black;
-    background-color: coral;
+    background-color: #F08E80;
     /* margin: 0 auto; */
 }
 
-.subHeadText{
-    background-color: red;
+.academic_subHeadText{
+    background-color: #F08E80;
+    width: 180px;
     padding: 15px;
 }
 .subHeadingSet{
     height: 70px;
     width: 200px;
-    clip-path: polygon(0% 0%, 75% 0%, 100% 50%, 75% 100%, 0% 100%);
+    /* clip-path: polygon(0% 0%, 75% 0%, 100% 50%, 75% 100%, 0% 100%); */
     padding-top: 5px;
 }
 .fas{
@@ -42,7 +43,7 @@
    width:33.33333%;
 
 }
-.right{
+.right1{
     margin: 10px;
     font-style: italic;
     text-align: right;

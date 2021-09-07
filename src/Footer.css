@@ -1,0 +1,14 @@
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #FDF0E6;
+    color: black;
+   
+  }
+  .footerText{
+      font-style: italic;
+      font-size: 15px;
+      text-align: center;
+  }
