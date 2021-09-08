@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/my-portfolio/static/css/main.004f67ab.chunk.css",
-    "main.js": "/my-portfolio/static/js/main.ea3c3b87.chunk.js",
-    "main.js.map": "/my-portfolio/static/js/main.ea3c3b87.chunk.js.map",
+    "main.css": "/my-portfolio/static/css/main.d93097e6.chunk.css",
+    "main.js": "/my-portfolio/static/js/main.44345e0f.chunk.js",
+    "main.js.map": "/my-portfolio/static/js/main.44345e0f.chunk.js.map",
     "runtime-main.js": "/my-portfolio/static/js/runtime-main.106d80c0.js",
     "runtime-main.js.map": "/my-portfolio/static/js/runtime-main.106d80c0.js.map",
     "static/js/2.d9fd28d3.chunk.js": "/my-portfolio/static/js/2.d9fd28d3.chunk.js",
@@ -10,17 +10,18 @@
     "static/js/3.40a5f4c2.chunk.js": "/my-portfolio/static/js/3.40a5f4c2.chunk.js",
     "static/js/3.40a5f4c2.chunk.js.map": "/my-portfolio/static/js/3.40a5f4c2.chunk.js.map",
     "index.html": "/my-portfolio/index.html",
-    "static/css/main.004f67ab.chunk.css.map": "/my-portfolio/static/css/main.004f67ab.chunk.css.map",
+    "static/css/main.d93097e6.chunk.css.map": "/my-portfolio/static/css/main.d93097e6.chunk.css.map",
     "static/js/2.d9fd28d3.chunk.js.LICENSE.txt": "/my-portfolio/static/js/2.d9fd28d3.chunk.js.LICENSE.txt",
     "static/media/Heni_Bhungalia.75bea7db.jpeg": "/my-portfolio/static/media/Heni_Bhungalia.75bea7db.jpeg",
     "static/media/Heni_Resume.9f96c35d.pdf": "/my-portfolio/static/media/Heni_Resume.9f96c35d.pdf",
     "static/media/HeroHeader.css": "/my-portfolio/static/media/abstract.01f8e7a5.jpg",
+    "static/media/vs.3d65081f.png": "/my-portfolio/static/media/vs.3d65081f.png",
     "static/media/wireframe.11e0a69d.png": "/my-portfolio/static/media/wireframe.11e0a69d.png"
   },
   "entrypoints": [
     "static/js/runtime-main.106d80c0.js",
     "static/js/2.d9fd28d3.chunk.js",
-    "static/css/main.004f67ab.chunk.css",
-    "static/js/main.ea3c3b87.chunk.js"
+    "static/css/main.d93097e6.chunk.css",
+    "static/js/main.44345e0f.chunk.js"
   ]
 }
