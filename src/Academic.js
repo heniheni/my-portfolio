@@ -1,14 +1,18 @@
 import React, { Component } from 'react'
 import './Academic.css'
+import Fade from 'react-reveal/Fade';
 
 export default class Academic extends Component {
     render() {
         return (
 
             <div className="Academic" id="Academic">
+                <Fade bottom>
                 <div className="subHeadingSet">
                     <h1 className="academic_subHeadText">Academic</h1>
                 </div>
+                </Fade>
+                
 
                 <div className="frame">
                     <div className="main">

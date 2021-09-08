@@ -66,7 +66,7 @@ export default class AboutMe extends Component {
                         <li className="items"><i class="fab fa-react fa-lg"> React</i></li>
                         <li className="items"><i class="fab fa-node-js fa-lg"> Node.Js</i></li>
                         <li className="items"><i class="fab fa-java fa-lg"> Java</i></li>
-                        <li className="items"><i class="fas fa-database fa-lg" > MySql</i></li>
+                        <li className="items1"><i class="fas fa-database fa-lg" > MySql</i></li>
                         
                     </ul>
 
@@ -76,7 +76,7 @@ export default class AboutMe extends Component {
                         <li className="items"><i class="fab fa-windows fa-lg"> Windows</i></li>
                         <li className="items"><i class="fab fa-github fa-lg"> Github</i></li>
                         <li className="items"><i class="fab fa-figma fa-lg"> Figma</i></li>
-                        <li className="items"><i class="fas fa-code fa-lg"> IntelliJ</i></li>
+                        <li className="items items1"><i class="fas fa-code fa-lg"> IntelliJ</i></li>
                         <li style={{ fontSize:"25px"}}className="items"><img className="setVS" src={vs} alt="languagelogo"/> Visual Studio Code</li>
                         <li style={{ fontSize:"25px"}}className="items"><img className="setVS" src={sublime} alt="languagelogo"/> Sublime Text</li>
                         

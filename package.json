@@ -15,6 +15,7 @@
     "react-mailto": "^0.4.0",
     "react-native-open-pdf": "^0.0.2",
     "react-pdf": "^5.3.2",
+    "react-reveal": "^1.2.2",
     "react-router-config": "^5.1.1",
     "react-router-dom": "^5.2.0",
     "react-scripts": "4.0.3",

@@ -10,7 +10,7 @@ const Nav = styled.nav`
 // background: -webkit-linear-gradient(to right, #b9d4db, #e9765b);  /* Chrome 10-25, Safari 5.1-6 */
 // background: linear-gradient(90deg , #b9d4db, #e9765b); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 // background-color:#e9765b;
- background-color:#F08E8000;
+ background-color:#e7edee;
 // background-image: url(./book.jpg);
 z-index:9;
   font-size:24px;
