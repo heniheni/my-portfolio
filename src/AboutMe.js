@@ -1,6 +1,7 @@
 import React, { Component } from 'react'
 import './AboutMe.css'
-
+import vs from './vs.png'
+import sublime from './sublime.png'
 import wireframe from './wireframe.png'
 
 
@@ -58,23 +59,27 @@ export default class AboutMe extends Component {
 
                 <div className="sets">
                     <ul className="list">
-                        <li style={{ color: "#e9765b" }} className="items">Skill Sets</li>
-                        <li className="items"><i class="fab fa-html5" fa-10x> HTML</i></li>
-                        <li className="items"><i class="fab fa-css3-alt"> CSS</i></li>
-                        <li className="items"><i class="fab fa-js"> JavaScript</i></li>
-                        <li className="items"><i class="fab fa-react"> React</i></li>
-                        <li className="items"><i class="fab fa-node-js"> Node.Js</i></li>
-                        <li className="items"><i class="fab fa-java"> Java</i></li>
+                        <li style={{ color: "#e9765b", fontStyle:"italic" }} className="items">Skill Sets</li>
+                        <li className="items"><i class="fab fa-html5 fa-lg"> HTML</i></li>
+                        <li className="items"><i class="fab fa-css3-alt fa-lg"> CSS</i></li>
+                        <li className="items"><i class="fab fa-js fa-lg"> JavaScript</i></li>
+                        <li className="items"><i class="fab fa-react fa-lg"> React</i></li>
+                        <li className="items"><i class="fab fa-node-js fa-lg"> Node.Js</i></li>
+                        <li className="items"><i class="fab fa-java fa-lg"> Java</i></li>
+                        <li className="items"><i class="fas fa-database fa-lg" > MySql</i></li>
+                        
                     </ul>
 
                     <ul className="list">
-                        <li style={{ color: "#e9765b" }} className="items">Tool Sets</li>
-                        <li className="items"><i className="htmlicon" class="fab fa-figma" fa-10x> Figma</i></li>
-                        <li className="items"><i class="fab fa-invision"> inVision</i></li>
-                        <li className="items"><i class="fab fa-windows"> Windows</i></li>
-                        <li className="items"><i class="fab fa-github"> Github</i></li>
-                        <li className="items"><i class="fab fa-node-js"> Node.Js</i></li>
-                        <li className="items"><i class="fab fa-java"> Java</i></li>
+                        <li style={{ color: "#e9765b",fontStyle:"italic"}} className="items">Tool Sets</li>
+                        <li className="items"><i class="fab fa-invision fa-lg"> inVision</i></li>
+                        <li className="items"><i class="fab fa-windows fa-lg"> Windows</i></li>
+                        <li className="items"><i class="fab fa-github fa-lg"> Github</i></li>
+                        <li className="items"><i class="fab fa-figma fa-lg"> Figma</i></li>
+                        <li className="items"><i class="fas fa-code fa-lg"> IntelliJ</i></li>
+                        <li style={{ fontSize:"25px"}}className="items"><img className="setVS" src={vs} alt="languagelogo"/> Visual Studio Code</li>
+                        <li style={{ fontSize:"25px"}}className="items"><img className="setVS" src={sublime} alt="languagelogo"/> Sublime Text</li>
+                        
                     </ul>
                 </div>
             </div>

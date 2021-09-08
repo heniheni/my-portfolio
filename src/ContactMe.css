@@ -26,6 +26,8 @@
     width: 210px;  
 }
 .email{
+    margin-left: auto;
+  margin-right: auto;
     display: grid;
    grid-template-columns: 1fr 1fr;
    justify-content: center;
@@ -41,12 +43,15 @@
     align-items: center;
     margin: 20px 40px;  
 }
+.subContent{
+    margin-left: 15px;
+}
 
-i.fab{
+/* i.fab{
     font-size: xx-large;
     margin-left: 13px;
     margin-right: 13px;
 }
 i.fas{
     font-size: xx-large;
-}
+} */

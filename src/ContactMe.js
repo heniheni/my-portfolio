@@ -17,23 +17,23 @@ export default class ContactMe extends Component {
 
                     <div className="email">
                         <div className="oneLine">
-                            <i class="fas fa-envelope"></i>
-                            <h2>bhungalia.h@northeastern.edu</h2>
+                            <i class="fas fa-envelope fa-2x"></i>
+                            <h2 className="subContent">bhungalia.h@northeastern.edu</h2>
                         </div>
 
                         <div className="oneLine">
-                            <i class="fas fa-phone-alt"></i>
-                            <h2>(206)- 484- 7164</h2>
+                            <i class="fas fa-phone-alt fa-2x"></i>
+                            <h2 className="subContent">(206)- 484- 7164</h2>
                         </div>
 
                         <div className="oneLine">
-                            <i class="fab fa-linkedin"></i>
-                            <h2><a href="https://www.linkedin.com/in/heni-bhungalia/">Linkedin</a></h2>
+                            <i class="fab fa-linkedin fa-2x"></i>
+                            <h2 className="subContent"><a href="https://www.linkedin.com/in/heni-bhungalia/">Linkedin</a></h2>
                         </div>
 
                         <div className="oneLine">
-                            <i class="fab fa-github"></i>
-                            <h2><a href="https://github.com/heniheni">Github</a></h2>
+                            <i class="fab fa-github fa-2x"></i>
+                            <h2 className="subContent"><a href="https://github.com/heniheni">Github</a></h2>
                         </div>
                     </div>
 

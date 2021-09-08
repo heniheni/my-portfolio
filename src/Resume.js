@@ -8,7 +8,10 @@ export default function Resume(props) {
   pdfjs.GlobalWorkerOptions.workerSrc = `//cdnjs.cloudflare.com/ajax/libs/pdf.js/${pdfjs.version}/pdf.worker.js`;
   const { pdf } = props;
   return (
-    <div className="Resume">
+    <div className="Resume" id="Resume">
+      <div className="subHeadingSet">
+          <h1 className="resume_subHeadText">Resume</h1>
+      </div>
       <Document
         className="setResume"
         file={pdf}

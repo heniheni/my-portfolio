@@ -1,5 +1,5 @@
 .Academic{
-    height: 100vh;
+   
     background-color: #FDF0E6;
 }
 .frame{
@@ -24,12 +24,12 @@
     /* clip-path: polygon(0% 0%, 75% 0%, 100% 50%, 75% 100%, 0% 100%); */
     padding-top: 5px;
 }
-.fas{
+/* .fas{
     margin: 10px;
     font-size: xxx-large;
    text-align: left;
 
-}
+} */
 .main{
     display: flex;
     flex-direction: row;

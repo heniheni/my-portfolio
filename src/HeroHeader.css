@@ -39,7 +39,7 @@
     margin: 15px;
 }
 .flexItem1{
-    margin-left: 180px;
+    /* margin-left: 180px; */
     width: 30%;
 
 }
@@ -53,8 +53,8 @@
 
 .setImage{
     /* border: 2px solid #192a56; */
-   height: 300px;
-   width: 300px;
+   /* height: 300px;
+   width: 300px; */
   border-radius: 50%;
    object-fit: cover;
    /* box-shadow: rgba(0, 0, 0, 85%) 2.4px 2.4px 3.2px; */
@@ -74,3 +74,14 @@
     color: white;
     border: none;
 }
+
+@media screen and ( max-width: 300px ) {
+    img.setImage { width: 100px; height: 100px; }
+    }
+    @media screen and ( max-width:1000px ) {
+    img.setImage { width: 200px; height: 200px; }
+    }
+    @media screen and ( max-width: 3000px ) {
+    img.setImage { width: 250px; height: 250px; }
+    }
+    
