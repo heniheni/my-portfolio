@@ -1,14 +1,18 @@
 import React, { Component } from 'react'
 import './ContactMe.css'
+import Fade from 'react-reveal/Fade';
 
 
 export default class ContactMe extends Component {
     render() {
         return (
             <div className="ContactMe" id="ContactMe">
+                <Fade bottom>
                 <div className="subHeadingSet">
                     <h1 className="contact_subHeadText">Contact Me</h1>
                 </div>
+                </Fade>
+                
 
                 <div className="mainContact">
                     <div>

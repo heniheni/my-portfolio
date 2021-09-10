@@ -14,16 +14,21 @@
   justify-content: center;
 }
 .subHeadingSet{
-    
+    text-align: center; 
     height: 70px;
-    width: 250px;
-    /* clip-path: polygon(0% 0%, 75% 0%, 100% 50%, 75% 100%, 0% 100%); */
+    width: 200px;
     padding-top: 5px;
 }
 .contact_subHeadText{
-    background-color: #F08E80;
-    padding: 15px;
-    width: 210px;  
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+      
+      box-shadow: 
+      0.3em 0.3em 0 0 #F08E80,
+      inset 0.3em 0.3em 0 0 #F08E80;
+      width: 180px; 
 }
 .email{
     margin-left: auto;

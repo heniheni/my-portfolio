@@ -32,16 +32,12 @@ const Ul = styled.ul`
 const LeftNav = ({ open }) => {
   return (
     <Ul className="styleUL" open={open}>
-
-        
-            <li className="listitems"><Link activeClass="active" to="HeroHeader" spy={true} smooth={true} offset={0} duration={500}>Home</Link></li>
-            <li className="listitems"><Link activeClass="active" to="AboutMe" spy={true} smooth={true} offset={0} duration={500}>About Me</Link></li>
-            <li className="listitems"><Link activeClass="active" to="Academic" spy={true} smooth={true} offset={0} duration={500}>Academic</Link></li>
-            <li className="listitems"><Link activeClass="active" to="Projects" spy={true} smooth={true} offset={0} duration={500}>Projects</Link></li>
-            <li className="listitems"><Link activeClass="active" to="Resume" spy={true} smooth={true} offset={0} duration={500}>Resume</Link></li>
-            <li className="listitems"><Link activeClass="active" to="ContactMe" spy={true} smooth={true} offset={0} duration={500}>Contact Me</Link></li>
-        
-      
+            <li className="listitems"><Link activeClass="active" to="HeroHeader" spy={true} smooth={true} offset={-55} duration={500}>Home</Link></li>
+            <li className="listitems"><Link activeClass="active" to="AboutMe" spy={true} smooth={true} offset={-55} duration={500}>About Me</Link></li>
+            <li className="listitems"><Link activeClass="active" to="Academic" spy={true} smooth={true} offset={-55} duration={500}>Academic</Link></li>
+            <li className="listitems"><Link activeClass="active" to="Projects" spy={true} smooth={true} offset={-55} duration={500}>Projects</Link></li>
+            <li className="listitems"><Link activeClass="active" to="Resume" spy={true} smooth={true} offset={-55} duration={500}>Resume</Link></li>
+            <li className="listitems"><Link activeClass="active" to="ContactMe" spy={true} smooth={true} offset={-55} duration={500}>Contact Me</Link></li>
     </Ul>
   )
 }

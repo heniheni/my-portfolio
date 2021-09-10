@@ -15,27 +15,24 @@ function App() {
     <div>
       <NavBar />
       <div>
-        <div>
+       
           <HeroHeader />
-        </div>
-        <div>
+       
+      
           <AboutMe />
-        </div>
-        <div>
+       
+        
           <Academic />
-        </div>
-        <div>
+       
+       
           <Projects />
-        </div>
-        <div>
+        
           <Resume pdf={samplePDF} />
-        </div>
-        <div>
+        
           <ContactMe />
-        </div>
-        <div>
+        
           <Footer />
-        </div>
+        
 
       </div>
     </div>

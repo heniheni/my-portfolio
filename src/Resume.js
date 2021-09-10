@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import { Document, Page, pdfjs } from "react-pdf";
 import './Resume.css'
+import Fade from 'react-reveal/Fade';
 
 export default function Resume(props) {
   //   const [numPages] = useState(null);
@@ -9,9 +10,12 @@ export default function Resume(props) {
   const { pdf } = props;
   return (
     <div className="Resume" id="Resume">
+      <Fade bottom>
       <div className="subHeadingSet">
           <h1 className="resume_subHeadText">Resume</h1>
       </div>
+      </Fade>
+      
       <Document
         className="setResume"
         file={pdf}

@@ -7,7 +7,7 @@ export default class Academic extends Component {
         return (
 
             <div className="Academic" id="Academic">
-                <Fade bottom>
+                <Fade bottom >
                 <div className="subHeadingSet">
                     <h1 className="academic_subHeadText">Academic</h1>
                 </div>

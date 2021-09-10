@@ -2,8 +2,10 @@ import React, { Component } from 'react'
 import './AboutMe.css'
 import vs from './vs.png'
 import sublime from './sublime.png'
-import wireframe from './wireframe.png'
-
+import wire from './wire.png'
+import prototype from './prototype.png'
+import code from './code.png'
+import Fade from 'react-reveal/Fade';
 
 import Emoji from 'a11y-react-emoji'
 
@@ -11,9 +13,11 @@ export default class AboutMe extends Component {
     render() {
         return (
             <div className="AboutMe" id="AboutMe">
-                <div className="subHeadingSet">
-                    <h1 className="about_subHeadText">About Me</h1>
-                </div>
+                <Fade bottom>
+                    <div className="subHeadingSet">
+                        <h1 className="about_subHeadText">About Me</h1>
+                    </div>
+                </Fade>
 
                 <div >
                     <div className="contentContainer">
@@ -21,36 +25,36 @@ export default class AboutMe extends Component {
                             <h2 className="contentAbout"><Emoji symbol="👋" label="Waving Hand" />Hi Again, </h2> <h3 style={{ color: "#e9765b", fontSize: "24px" }}>UI-UX Web Developer</h3><h4 className="subcontent">Northeastern University</h4>
                         </div>
 
-                        <p className="detailedText">
-                            Creative Front-End Web Developer with experience building a responsive website,
-                            utilizing semantic HTML. Passoniate about learning usability, accessibility,
-                            and learning new technology. Creative Front-End Web Developer with experience building a responsive website,
-                            utilizing semantic HTML. Passoniate about learning usability, accessibility,
-                            and learning new technology.Creative Front-End Web Developer with experience building a responsive website,
-                            utilizing semantic HTML. Passoniate about learning usability, accessibility,
-                            and learning new technology.
+                        <p className="typeWriter">
+                        I am Heni Bhungalia, promising future developer residing at Seattle,WA.Born and brought up in India.
+                        Graduate student of Northeastern University. Excellent with Time management and Leadership.<br/><br/>
+                        I love designing and developing application which catch user attention, 
+                        currently enhancing my knowledge by learning more about React and divind deep into 
+                        how to make website accessible and user friendly.<br/><br/> 
+                        I am excited to join a company where I can refine my skills.
                         </p>
+
                         <h1 className="setHobby">I Love, </h1>
                         <div className="favContainer">
-                           
+
                             <div>
                                 <figure>
-                                    <img className="fav1" src={wireframe} alt="userprofileimage" />
+                                    <img className="fav1" src={wire} alt="wireframePhoto" />
                                     <figcaption className="fav1_cap">Wireframing</figcaption>
                                 </figure>
                             </div>
 
                             <div>
                                 <figure>
-                                    <img className="fav2" src={wireframe} alt="userprofileimage" />
-                                    <figcaption className="fav2_cap">Wireframing</figcaption>
+                                    <img className="fav2" src={prototype} alt="profilePhoto" />
+                                    <figcaption className="fav2_cap">Prototyping</figcaption>
                                 </figure>
                             </div>
 
                             <div>
                                 <figure>
-                                    <img className="fav3" src={wireframe} alt="userprofileimage" />
-                                    <figcaption className="fav3_cap">Wireframing</figcaption>
+                                    <img className="fav3" src={code} alt="codePhoto" />
+                                    <figcaption className="fav3_cap">Developing</figcaption>
                                 </figure>
                             </div>
                         </div>
@@ -59,7 +63,7 @@ export default class AboutMe extends Component {
 
                 <div className="sets">
                     <ul className="list">
-                        <li style={{ color: "#e9765b", fontStyle:"italic" }} className="items">Skill Sets</li>
+                        <li style={{ color: "#e9765b", fontStyle: "italic" }} className="items">Skill Sets</li>
                         <li className="items"><i class="fab fa-html5 fa-lg"> HTML</i></li>
                         <li className="items"><i class="fab fa-css3-alt fa-lg"> CSS</i></li>
                         <li className="items"><i class="fab fa-js fa-lg"> JavaScript</i></li>
@@ -67,19 +71,19 @@ export default class AboutMe extends Component {
                         <li className="items"><i class="fab fa-node-js fa-lg"> Node.Js</i></li>
                         <li className="items"><i class="fab fa-java fa-lg"> Java</i></li>
                         <li className="items1"><i class="fas fa-database fa-lg" > MySql</i></li>
-                        
+
                     </ul>
 
                     <ul className="list">
-                        <li style={{ color: "#e9765b",fontStyle:"italic"}} className="items">Tool Sets</li>
+                        <li style={{ color: "#e9765b", fontStyle: "italic" }} className="items">Tool Sets</li>
                         <li className="items"><i class="fab fa-invision fa-lg"> inVision</i></li>
                         <li className="items"><i class="fab fa-windows fa-lg"> Windows</i></li>
                         <li className="items"><i class="fab fa-github fa-lg"> Github</i></li>
                         <li className="items"><i class="fab fa-figma fa-lg"> Figma</i></li>
                         <li className="items items1"><i class="fas fa-code fa-lg"> IntelliJ</i></li>
-                        <li style={{ fontSize:"25px"}}className="items"><img className="setVS" src={vs} alt="languagelogo"/> Visual Studio Code</li>
-                        <li style={{ fontSize:"25px"}}className="items"><img className="setVS" src={sublime} alt="languagelogo"/> Sublime Text</li>
-                        
+                        <li style={{ fontSize: "25px" }} className="items"><img className="setVS" src={vs} alt="languagelogo" /> Visual Studio Code</li>
+                        <li style={{ fontSize: "25px" }} className="items"><img className="setVS" src={sublime} alt="languagelogo" /> Sublime Text</li>
+
                     </ul>
                 </div>
             </div>
