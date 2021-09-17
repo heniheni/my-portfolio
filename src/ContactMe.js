@@ -8,7 +8,7 @@ export default class ContactMe extends Component {
         return (
             <div className="ContactMe" id="ContactMe">
                 <Fade bottom>
-                <div className="subHeadingSet">
+                <div className="subHeadingSetContactMe">
                     <h1 className="contact_subHeadText">Contact Me</h1>
                 </div>
                 </Fade>

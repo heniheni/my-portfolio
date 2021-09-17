@@ -6,7 +6,7 @@ export default class Projects extends Component {
         return (
             <div className="Projects" id="Projects">
                 <Fade className="react" bottom>
-                    <div className="subHeadingSet">
+                    <div className="subHeadingSetProject">
                         <h1 className="project_subHeadText">Projects</h1>
                     </div>
                 </Fade>

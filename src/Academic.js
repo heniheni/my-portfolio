@@ -8,7 +8,7 @@ export default class Academic extends Component {
 
             <div className="Academic" id="Academic">
                 <Fade bottom >
-                <div className="subHeadingSet">
+                <div className="subHeadingSetAcademic">
                     <h1 className="academic_subHeadText">Academic</h1>
                 </div>
                 </Fade>

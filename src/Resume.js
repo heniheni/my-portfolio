@@ -11,7 +11,7 @@ export default function Resume(props) {
   return (
     <div className="Resume" id="Resume">
       <Fade bottom>
-      <div className="subHeadingSet">
+      <div className="subHeadingSetResume">
           <h1 className="resume_subHeadText">Resume</h1>
       </div>
       </Fade>

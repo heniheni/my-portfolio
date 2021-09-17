@@ -11,11 +11,12 @@
     background-color: #F08E80;
     padding: 10px;
 }
-.react-reveal.subHeadingSet{  
+.react-reveal.subHeadingSetAcademic{  
     display: flex;
     justify-content: center;
+    align-items: center;
     width: 100%;
-    margin-top: 15px;
+    margin: 25px;
 }
 .academic_subHeadText{
     display: flex;
@@ -25,6 +26,7 @@
     box-shadow: 0.3em 0.3em 0 0 #F08E80,inset 0.3em 0.3em 0 0 #F08E80;
     width: 180px;
     margin-top: 10px;
+    padding: 15px;
 }
 .subHeadingSet{
     text-align: center; 
