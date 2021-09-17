@@ -12,7 +12,7 @@ import samplePDF from "./Heni_Resume.pdf";
 function App() {
 
   return (
-    <div>
+    <>
       <NavBar />
       <div>
        
@@ -35,7 +35,7 @@ function App() {
         
 
       </div>
-    </div>
+    </>
   );
 }
 
