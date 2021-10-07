@@ -39,7 +39,7 @@ export default class AboutMe extends Component {
                         <div className="favContainer">
 
                             <div >
-                                <a className="loveStyle" href="https://heni947644.invisionapp.com/freehand/INFO6150ProjectWireframe-6b6TbEPwa">
+                                <a className="loveStyle" href="https://heni947644.invisionapp.com/freehand/INFO6150ProjectWireframe-6b6TbEPwa" target="_blank">
                                 <figure>
                                     <img className="fav1" src={wire} alt="wireframePhoto" />
                                     <figcaption className="fav1_cap">Wireframing</figcaption>
@@ -49,7 +49,7 @@ export default class AboutMe extends Component {
                             </div>
 
                             <div>
-                                <a className="loveStyle" href="https://www.figma.com/file/OfVddtmzzGcsge03vkORNu/Untitled?node-id=33%3A7">
+                                <a className="loveStyle" href="https://www.figma.com/file/OfVddtmzzGcsge03vkORNu/Untitled?node-id=33%3A7" target="_blank">
                                 <figure>
                                     <img className="fav2" src={prototype} alt="prototypePhoto" />
                                     <figcaption className="fav2_cap">Prototyping</figcaption>
@@ -61,7 +61,7 @@ export default class AboutMe extends Component {
                             </div>
 
                             <div>
-                                <a className="loveStyle" href="https://github.com/heniheni?tab=repositories">
+                                <a className="loveStyle" href="https://github.com/heniheni?tab=repositories" target="_blank">
                                 <figure>
                                     <img className="fav3" src={code} alt="codePhoto" />
                                     <figcaption className="fav3_cap">Developing</figcaption>
