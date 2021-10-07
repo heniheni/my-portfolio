@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/my-portfolio/static/css/main.5e94c4bd.chunk.css",
-    "main.js": "/my-portfolio/static/js/main.bb43d7dc.chunk.js",
-    "main.js.map": "/my-portfolio/static/js/main.bb43d7dc.chunk.js.map",
-    "runtime-main.js": "/my-portfolio/static/js/runtime-main.9977f2ea.js",
-    "runtime-main.js.map": "/my-portfolio/static/js/runtime-main.9977f2ea.js.map",
-    "static/js/2.fe0f232b.chunk.js": "/my-portfolio/static/js/2.fe0f232b.chunk.js",
-    "static/js/2.fe0f232b.chunk.js.map": "/my-portfolio/static/js/2.fe0f232b.chunk.js.map",
-    "static/js/3.aeb104cb.chunk.js": "/my-portfolio/static/js/3.aeb104cb.chunk.js",
-    "static/js/3.aeb104cb.chunk.js.map": "/my-portfolio/static/js/3.aeb104cb.chunk.js.map",
+    "main.css": "/my-portfolio/static/css/main.3975bfb1.chunk.css",
+    "main.js": "/my-portfolio/static/js/main.3235081b.chunk.js",
+    "main.js.map": "/my-portfolio/static/js/main.3235081b.chunk.js.map",
+    "runtime-main.js": "/my-portfolio/static/js/runtime-main.ba49fad3.js",
+    "runtime-main.js.map": "/my-portfolio/static/js/runtime-main.ba49fad3.js.map",
+    "static/js/2.301edc50.chunk.js": "/my-portfolio/static/js/2.301edc50.chunk.js",
+    "static/js/2.301edc50.chunk.js.map": "/my-portfolio/static/js/2.301edc50.chunk.js.map",
+    "static/js/3.3f4b5e24.chunk.js": "/my-portfolio/static/js/3.3f4b5e24.chunk.js",
+    "static/js/3.3f4b5e24.chunk.js.map": "/my-portfolio/static/js/3.3f4b5e24.chunk.js.map",
     "index.html": "/my-portfolio/index.html",
-    "static/css/main.5e94c4bd.chunk.css.map": "/my-portfolio/static/css/main.5e94c4bd.chunk.css.map",
-    "static/js/2.fe0f232b.chunk.js.LICENSE.txt": "/my-portfolio/static/js/2.fe0f232b.chunk.js.LICENSE.txt",
+    "static/css/main.3975bfb1.chunk.css.map": "/my-portfolio/static/css/main.3975bfb1.chunk.css.map",
+    "static/js/2.301edc50.chunk.js.LICENSE.txt": "/my-portfolio/static/js/2.301edc50.chunk.js.LICENSE.txt",
     "static/media/Heni_Bhungalia.75bea7db.jpeg": "/my-portfolio/static/media/Heni_Bhungalia.75bea7db.jpeg",
-    "static/media/Heni_Resume.9f96c35d.pdf": "/my-portfolio/static/media/Heni_Resume.9f96c35d.pdf",
+    "static/media/Heni_Bhungalia.ea36d5fd.pdf": "/my-portfolio/static/media/Heni_Bhungalia.ea36d5fd.pdf",
     "static/media/HeroHeader.css": "/my-portfolio/static/media/abstract.01f8e7a5.jpg",
     "static/media/code.8579115f.png": "/my-portfolio/static/media/code.8579115f.png",
     "static/media/prototype.56e264a9.png": "/my-portfolio/static/media/prototype.56e264a9.png",
@@ -21,9 +21,9 @@
     "static/media/wire.54d58f44.png": "/my-portfolio/static/media/wire.54d58f44.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.9977f2ea.js",
-    "static/js/2.fe0f232b.chunk.js",
-    "static/css/main.5e94c4bd.chunk.css",
-    "static/js/main.bb43d7dc.chunk.js"
+    "static/js/runtime-main.ba49fad3.js",
+    "static/js/2.301edc50.chunk.js",
+    "static/css/main.3975bfb1.chunk.css",
+    "static/js/main.3235081b.chunk.js"
   ]
 }
