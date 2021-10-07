@@ -86,3 +86,9 @@
     border: none; 
 
 }
+.button:hover{
+    background-color: #00CEC9;
+    color: white;
+    border-bottom: 2px solid teal;
+    cursor: pointer;
+}

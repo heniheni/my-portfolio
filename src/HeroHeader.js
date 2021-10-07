@@ -19,8 +19,9 @@ export default function HeroHeader() {
 
                    
                     <p className="heroContent">
-                    Creative Front-End Web Developer with experience building a responsive website,
-                    utilizing semantic HTML. Passoniate about learning usability, accessibility,and learning new technology.
+                    Creative Front End Web Developer with experience building a responsive website, utilizing semantic HTML. 
+                    <br/><br/>Passionate about learning usability, accessibility, and learning new technology. 
+                    Hardworking and team player, proficient in HTML, CSS, designing wireframes, and developing prototypes.
                     </p>
                     <div className="wrap">
                     <Link to="AboutMe"><button className="button">Read More</button></Link>

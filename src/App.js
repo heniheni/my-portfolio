@@ -7,7 +7,7 @@ import Projects from './Projects';
 import Resume from './Resume';
 import Footer from './Footer';
 import ContactMe from './ContactMe';
-import samplePDF from "./Heni_Resume.pdf";
+import samplePDF from "./Heni_Bhungalia.pdf";
 
 function App() {
 
@@ -16,11 +16,8 @@ function App() {
       <NavBar />
       <div>
        
-          <HeroHeader />
-       
-      
+          <HeroHeader />     
           <AboutMe />
-       
         
           <Academic />
        
