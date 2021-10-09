@@ -83,7 +83,7 @@ export default class AboutMe extends Component {
                         <li className="items"><i class="fab fa-java fa-lg"> Java</i></li>
                         <li className="items1"><i class="fas fa-database fa-lg heni" > MySql</i></li> */}
 
-                        <li style={{ color: "#e9765b", fontStyle: "italic" }} className="items">Skill Sets</li>
+                        <li style={{ color: "#e9765b", fontStyle: "italic", fontWeight:"bold" }} className="items">Skill Sets</li>
                         <li className="items"> HTML</li>
                         <li className="items">CSS</li>
                         <li className="items"> JavaScript</li>
@@ -105,7 +105,7 @@ export default class AboutMe extends Component {
                         <li className="items items1"><i class="fas fa-code fa-lg heni"> IntelliJ</i></li>
                         <li style={{ fontSize: "25px" }} className="items"><img className="setVS" src={vs} alt="languagelogo" /> Visual Studio Code</li>
                         <li style={{ fontSize: "25px" }} className="items"><img className="setVS" src={sublime} alt="languagelogo" /> Sublime Text</li> */}
-                        <li style={{ color: "#e9765b", fontStyle: "italic" }} className="items">Tool Sets</li>
+                        <li style={{ color: "#e9765b", fontStyle: "italic", fontWeight:"bold" }} className="items">Tool Sets</li>
                         <li className="items"> inVision</li>
                         <li className="items"> Windows</li>
                         <li className="items"> Github</li>
